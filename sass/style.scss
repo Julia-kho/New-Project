@@ -50,7 +50,7 @@ ul a:link {
     color: white;
     font-size: 75px;
     text-align: center;
-    font-style: bold;
+    font-weight: bold;
 }
 
 .btn {
@@ -75,4 +75,58 @@ ul a:link {
 
 .menu ul {
     margin: 70px 10px 0 0;
+}
+
+/*Services*/
+
+.services h2 {
+    font-family: $font-one;
+    font-size: 40px;
+    font-weight: 900;
+    margin-top: 100px;
+    text-align: center;
+}
+
+.services p {
+    font-family: $font-two;
+    font-size: 16px;
+    font-style: italic;
+    color: black;
+    text-align: center;
+}
+
+.services i {
+    color: $color-two;
+    font-size: 30px;
+    text-align: center;
+    width: 60px;
+    height: 60px;  
+    padding: 10px;
+    border: solid;
+    border-radius: 50%;
+    margin: 20px;
+}
+.services .icon {
+    text-align: center; 
+}
+.services .card-title {
+    font-size: 18px;
+    font-weight: 500;
+    font-family: $font-one;
+    text-align: center;
+}
+
+.services .card-text {
+    font-size: 14px;
+    color: grey;
+    text-align: center;
+}
+.services .card {
+    border: none;
+    margin: 30px;
+    margin-bottom: 100px;
+} 
+
+.services .card-body {
+    padding: 0;
 }
