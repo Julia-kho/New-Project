@@ -109,16 +109,16 @@ ul a:link {
 .services .icon {
     text-align: center; 
 }
-.services .card-title {
+ .card-title {
     font-size: 18px;
     font-weight: 500;
     font-family: $font-one;
     text-align: center;
 }
 
-.services .card-text {
+.card-text {
     font-size: 14px;
-    color: grey;
+    color: rgb(115 115 115);
     text-align: center;
 }
 .services .card {
@@ -130,3 +130,26 @@ ul a:link {
 .services .card-body {
     padding: 0;
 }
+
+/*Portfolio*/
+.portfolio {
+    background:rgb(247 247 247);
+}
+
+.portfolio h2 {
+    font-family: $font-one;
+    font-size: 40px;
+    font-weight: 900;
+    margin-top: 100px;
+    text-align: center;
+}
+
+.portfolio p {
+    font-family: $font-two;
+    font-size: 16px;
+    font-style: italic;
+    color: black;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
