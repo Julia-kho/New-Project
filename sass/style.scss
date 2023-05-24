@@ -1,0 +1,78 @@
+/*GLOBAL*/
+$font-one: 'Montserrat', sans-serif;
+$font-two: 'Roboto Slab', serif;
+$font-three: 'Cedarville Cursive', cursive;
+$color-one: black;
+$color-two: rgb(254 209 54);
+
+body {
+    font-family: $font-one;
+}
+/*Intro*/
+p {
+    font-family: $font-three;
+    color: $color-two;
+    font-size: 36px;
+}
+
+ ul a {
+    color: white;
+    font-style: none;
+    text-align: end;
+}
+
+ul a:link { 
+    text-decoration: none; 
+}
+
+.menu {
+    background-image: url("https://i.postimg.cc/HksG6jrV/Background-Image.jpg");
+    height: 640px;
+    background-color: black;
+    width: 100%;
+}
+
+.menu .welcome {
+    background-color: transparent;
+    border: none;
+}
+
+.welcome h3 {
+    font-style: italic;
+    color: white;
+    font-size: 40px;
+    text-align: center;
+    vertical-align: middle;
+    margin-top: 150px;
+}
+
+.welcome h1 {
+    color: white;
+    font-size: 75px;
+    text-align: center;
+    font-style: bold;
+}
+
+.btn {
+    background-color: $color-two;
+    border: none;
+    align-items: center;
+    width: 240px;
+    height: 70px;
+    display: inline-block;
+    line-height: 55px;
+    text-align: center;
+}
+
+.btn:hover {
+    background-color: white;
+    color: black;
+}
+
+.menu p {
+    margin: 50px 0 0 100px;
+}
+
+.menu ul {
+    margin: 70px 10px 0 0;
+}
